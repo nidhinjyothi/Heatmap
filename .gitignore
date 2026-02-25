@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+*.engine
+*.pt
+*.onnx
+tmp/
+.tmp.*/
+env/
+venv/
+venv_test/

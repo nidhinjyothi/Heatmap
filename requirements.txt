@@ -1,0 +1,9 @@
+ultralytics
+supervision
+opencv-python
+tqdm
+ffmpegcv
+psycopg2-binary
+pytz
+boto3
+python-dotenv
