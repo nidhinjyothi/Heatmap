@@ -18,8 +18,8 @@ A technical toolset for processing surveillance video to generate heatmaps.
 - **`config.py`**: Centralized configuration for intervals, database settings, and camera paths.
 - **`db_handler.py`**: Logic for AWS RDS interactions (Batch writes).
 - **`s3_handler.py`**: Logic for uploading reference frames to AWS S3.
-- **`.env`**: (User Created) Stores secret keys. **Do not share this file.**
-- **`.env.template`**: Reference for which variables to put in your `.env`.
+- **`.env`**: (User Created) Stores secret keys.
+- **`.env.template`**: Reference for which variables to put in `.env`.
 
 ---
 
@@ -83,7 +83,7 @@ True L4 inference FPS: 130.1 FPS (7.7ms per frame)
 
 ---
 
-## 🛠 Maintenance
+## Maintenance
 Use `python db_utils.py` to:
 - Clear data for a specific video name.
 - Remove old rows beyond a certain ID threshold to keep the database light.
